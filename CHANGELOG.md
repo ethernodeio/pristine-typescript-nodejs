@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.0.5...1.0.6) (2019-07-07)
+
+
+### Bug Fixes
+
+* add .npmrpc for EB deploy ([9bf341e](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/9bf341e))
+
 ## [1.0.5](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.0.4...1.0.5) (2019-07-07)
 
 
