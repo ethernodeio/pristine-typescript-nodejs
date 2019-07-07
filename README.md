@@ -1,8 +1,8 @@
-# Pristine Typescript
+# Pristine Typescript OpenRPC Server
 
-A typescript open source repository in its original condition.
+A typescript [OpenRPC Server](https://github.com/open-rpc/server-js) repository in its original condition.
 
-Pristine Typescript a fork of [Pristine](https://github.com/etclabscore/pristine).
+Pristine Typescript OpenRPC Server a fork of [Pristine](https://github.com/etclabscore/pristine).
 
 There are a lack of repositories to start from to build community driven open source projects. Pristine Typescript is a complete starting point, it follows a Documentation Driven Development approach, and can be used as a resource to augment existing documentation.
 
