@@ -1,78 +1,32 @@
 {
   "openrpc": "1.0.0",
   "info": {
-    "title": "Simple RPC overview",
+    "title": "Hello World RPC",
     "version": "2.0.0"
   },
   "methods": [
     {
-      "name": "createUser",
-      "description": "Creates a new user in the system. Duplicates are not allowed, first user is admin",
-      "params": [
-        {
-          "$ref": "#/components/contentDescriptors/userName"
-        },
-        {
-          "$ref": "#/components/contentDescriptors/password"
-        },
-        {
-          "$ref": "#/components/contentDescriptors/userRole"
-        }
-      ],
+      "name": "hello",
+      "description": "A Simple hello world method",
+      "params": [],
       "result": {
-        "name": "createAccountResult",
-        "description": "Retures success",
+        "name": "helloResult",
+        "description": "Returns the world",
         "schema": {
-          "title": "responseStatus",
-          "type": "object",
-          "properties": {
-            "status": {
-              "type": "string",
-              "description": "User create success"
-            },
-            "message": {
-              "type": "string",
-              "description": "Returns info on new user."
-            }
-          }
+          "type": "string"
         }
       },
-      "errors": [
+      "examples": [
         {
-          "code": 250,
-          "data": [],
-          "message": "User Exists"
+          "name": "helloWorldExample",
+          "description": "Hello World Example",
+          "params": [],
+          "result": {
+            "name": "helloWorldExampleResult",
+            "value": "world"
+          }
         }
       ]
     }
-  ],
-  "components": {
-    "contentDescriptors": {
-      "userName": {
-        "name": "userName",
-        "description": "user name",
-        "required": true,
-        "schema": {
-          "title": "userName",
-          "type": "string"
-        }
-      },
-      "password": {
-        "name": "password",
-        "description": "user password",
-        "required": true,
-        "schema": {
-          "type": "string"
-        }
-      },
-      "userRole": {
-        "name": "userRole",
-        "description": "user role, first user is Admin by default",
-        "required": true,
-        "schema": {
-          "type": "string"
-        }
-      }
-    }
-  }
+  ]
 }
