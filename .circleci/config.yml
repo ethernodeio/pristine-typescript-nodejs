@@ -84,6 +84,10 @@ workflows:
           requires:
             - test
             - build
+      - release_elasticbeanstalk:
+          filters: *filter-only-master
+          requires:
+            - release
       - release:
           filters: *filter-only-master
           requires:
