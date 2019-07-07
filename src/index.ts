@@ -27,11 +27,11 @@ const options = {
   transportConfigs: [
     {
       type: "HTTPTransport",
-      options: { port: 9000, middleware: [] } as IHTTPServerTransportOptions,
+      options: { port: 8081, middleware: [] } as IHTTPServerTransportOptions,
     },
     {
       type: "WebSocketTransport",
-      options: { port: 9001, middleware: [], allowHTTP1: true } as IWebSocketServerTransportOptions,
+      options: { port: 8082, middleware: [], allowHTTP1: true } as IWebSocketServerTransportOptions,
     },
   ],
   openrpcDocument: openrpcDocument as any,
