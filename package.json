@@ -7,7 +7,7 @@
     "start": "npm run typings && tsc && node build/src/index.js",
     "build": "npm run typings && tsc",
     "lint": "tslint --fix -p .",
-    "test": "npm run typings && npm run lint && jest --coverage",
+    "test": "npm run typings && npm run lint && jest --coverage --passWithNoTests",
     "typings": "open-rpc-typings --output-ts __GENERATED_TYPES__"
   },
   "author": "",
