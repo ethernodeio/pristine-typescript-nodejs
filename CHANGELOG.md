@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.0.1...1.0.2) (2019-07-07)
+
+
+### Bug Fixes
+
+* elastic beanstalk release again ([9cf73ef](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/9cf73ef))
+
 ## [1.0.1](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.0.0...1.0.1) (2019-07-07)
 
 
