@@ -30,13 +30,12 @@ You can view your deployed react site at the `homepage` url required to be chang
 
 ## Elastic Beanstalk Auto Deploy
 
-
 ### Setup
 
 #### New IAM User
 
 - Click here to make a new user https://console.aws.amazon.com/iam/home#/users$new?step=details
-- Set new username
+- Set new username to `PristineUser`
 - Select `Programmatic Access` as the typ
 - Click Create Group on the permission page
 - Set a group name and select `AWSElasticBeanstalkFullAccess` policy type
