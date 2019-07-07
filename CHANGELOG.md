@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.0.2...1.0.3) (2019-07-07)
+
+
+### Bug Fixes
+
+* add elasticbeanstalk config ([dece2eb](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/dece2eb))
+
 ## [1.0.2](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.0.1...1.0.2) (2019-07-07)
 
 
