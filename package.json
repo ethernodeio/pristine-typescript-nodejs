@@ -1,19 +1,20 @@
 {
-  "name": "@ethernodeio/enapi",
-  "version": "1.0.0",
-  "description": "enAPI to intereact with the enOS system",
-  "main": "build/server.js",
+  "name": "@etclabscore/pristine-typescript-openrpc-server",
+  "version": "0.0.0-development",
+  "description": "Pristine Typescript OpenRPC Server",
+  "main": "build/src/index.js",
   "scripts": {
-    "start": "tsc && node build/server.js",
-    "build": "tsc",
+    "start": "npm run typings && tsc && node build/src/index.js",
+    "build": "npm run typings && tsc",
     "lint": "tslint --fix -p .",
-    "test": "npm run lint && jest --coverage",
+    "test": "npm run typings && npm run lint && jest --coverage --passWithNoTests",
     "typings": "open-rpc-typings --output-ts __GENERATED_TYPES__"
   },
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@open-rpc/server-js": "^1.2.3",
+    "@open-rpc/meta-schema": "^1.4.3",
+    "@open-rpc/server-js": "^1.3.0",
     "cors": "^2.8.5"
   },
   "devDependencies": {
