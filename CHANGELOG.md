@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.0.3...1.0.4) (2019-07-07)
+
+
+### Bug Fixes
+
+* add ebextensions ([1939e97](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/1939e97))
+
 ## [1.0.3](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.0.2...1.0.3) (2019-07-07)
 
 
