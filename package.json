@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run typings && tsc && node build/src/index.js",
     "build": "npm run typings && tsc",
+    "generator-client": "open-rpc-generator-client",
     "lint": "tslint --fix -p .",
     "test": "npm run typings && npm run lint && jest --coverage --passWithNoTests",
     "typings": "open-rpc-typings --output-ts __GENERATED_TYPES__"
@@ -26,7 +27,10 @@
     "semantic-release": "^15.13.18"
   },
   "devDependencies": {
+    "@open-rpc/generator-client": "^1.9.6",
+    "@open-rpc/semantic-release-plugin": "^1.0.2",
     "@open-rpc/typings": "^1.4.2",
+    "@semantic-release/exec": "^3.3.5",
     "@types/cors": "^2.8.5",
     "@types/jest": "^24.0.13",
     "jest": "^24.8.0",

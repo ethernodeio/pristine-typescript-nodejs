@@ -4,6 +4,7 @@
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
+    "@open-rpc/semantic-release-plugin",
     "@semantic-release/changelog",
     "@semantic-release/github",
     "@semantic-release/git",
@@ -16,6 +17,12 @@
     "@semantic-release/github"
   ],
   "publish": [
+    [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "./publish.sh"
+      }
+    ],
     "@semantic-release/github",
     "@semantic-release/npm"
   ],
