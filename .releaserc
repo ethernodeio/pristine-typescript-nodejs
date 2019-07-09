@@ -21,7 +21,8 @@
     [
       "@semantic-release/exec",
       {
-        "publishCmd": "./publish.sh"
+        "publishCmd": "./publish.sh",
+        "env": {}
       }
     ],
     "@semantic-release/github",
