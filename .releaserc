@@ -21,6 +21,7 @@
     [
       "@semantic-release/exec",
       {
+        "verifyCmd": "./verifyConditions.sh",
         "publishCmd": "./publish.sh",
         "env": {}
       }
