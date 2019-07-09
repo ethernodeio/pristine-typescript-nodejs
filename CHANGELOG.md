@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.1.2...1.1.3) (2019-07-09)
+
+
+### Bug Fixes
+
+* **README:** add example installation instructions ([a83d5ec](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/a83d5ec))
+* **releaserc:** add verifyCondition ([73d9360](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/73d9360))
+
 ## [1.1.2](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.1.1...1.1.2) (2019-07-09)
 
 
