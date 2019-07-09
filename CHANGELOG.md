@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.1.1...1.1.2) (2019-07-09)
+
+
+### Bug Fixes
+
+* **publish:** add env log ([9e9154f](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/9e9154f))
+* **semantic-release:** add verifyconditions and use NPM_TOKEN ([d6d058f](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/d6d058f))
+
 ## [1.1.1](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.1.0...1.1.1) (2019-07-09)
 
 
