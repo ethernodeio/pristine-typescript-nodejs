@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.1.0...1.1.1) (2019-07-09)
+
+
+### Bug Fixes
+
+* **releaserc:** add empty env to extend env variables for exec ([6cf73f2](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/6cf73f2))
+
 # [1.1.0](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.0.6...1.1.0) (2019-07-08)
 
 
