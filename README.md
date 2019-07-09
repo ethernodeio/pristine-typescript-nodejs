@@ -14,9 +14,10 @@ This pristine OpenRPC starting point auto generates clients to interact with thi
 
 `npm install @etclabscore/pristine-typescript-openrpc-server-client`
 
-or add this to your `Cargo.toml`
-
 ### Rust
+
+add this to your `Cargo.toml`
+
 `pristine-typescript-openrpc-server-client = "1.1.2"`
 
 ## How to use Pristine in your project
