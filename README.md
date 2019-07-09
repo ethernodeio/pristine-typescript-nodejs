@@ -6,6 +6,19 @@ Pristine Typescript OpenRPC Server a fork of [Pristine](https://github.com/etcla
 
 There are a lack of repositories to start from to build community driven open source projects. Pristine Typescript is a complete starting point, it follows a Documentation Driven Development approach, and can be used as a resource to augment existing documentation.
 
+
+## Generated Clients
+This pristine OpenRPC starting point auto generates clients to interact with this server when released via `semantic-release`. You can test out the generated ones from this repo:
+
+### Typescript/Javascript
+
+`npm install @etclabscore/pristine-typescript-openrpc-server-client`
+
+or add this to your `Cargo.toml`
+
+### Rust
+`pristine-typescript-openrpc-server-client = "1.1.2"`
+
 ## How to use Pristine in your project
 
 There are 2 options for using pristine with your project.
