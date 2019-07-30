@@ -1,3 +1,40 @@
+## [1.1.3](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.1.2...1.1.3) (2019-07-09)
+
+
+### Bug Fixes
+
+* **README:** add example installation instructions ([a83d5ec](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/a83d5ec))
+* **releaserc:** add verifyCondition ([73d9360](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/73d9360))
+
+## [1.1.2](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.1.1...1.1.2) (2019-07-09)
+
+
+### Bug Fixes
+
+* **publish:** add env log ([9e9154f](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/9e9154f))
+* **semantic-release:** add verifyconditions and use NPM_TOKEN ([d6d058f](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/d6d058f))
+
+## [1.1.1](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.1.0...1.1.1) (2019-07-09)
+
+
+### Bug Fixes
+
+* **releaserc:** add empty env to extend env variables for exec ([6cf73f2](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/6cf73f2))
+
+# [1.1.0](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.0.6...1.1.0) (2019-07-08)
+
+
+### Bug Fixes
+
+* permissions on publish.sh ([7147c37](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/7147c37))
+* **circleci:** use rust image to generate clients ([c9ad38c](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/c9ad38c))
+* **releaserc:** ensure verifyConditions on openrpc semantic release plugin ([7256a67](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/7256a67))
+
+
+### Features
+
+* generate clients from OpenRPC generator-client ([588f8f3](https://github.com/etclabscore/pristine-typescript-openrpc-server/commit/588f8f3))
+
 ## [1.0.6](https://github.com/etclabscore/pristine-typescript-openrpc-server/compare/1.0.5...1.0.6) (2019-07-07)
 
 
